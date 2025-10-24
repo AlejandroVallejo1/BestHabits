@@ -1,1 +1,2 @@
 node_modules/
+grep -qxF ".env" .gitignore || echo ".env" >> .gitignore
